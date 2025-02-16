@@ -26,3 +26,17 @@ p {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+.my-button {
+    background-color: #4CAF50; /* Zelené pozadí */
+    color: white; /* Bílý text */
+    padding: 10px 20px; /* Vnitřní okraje */
+    border: none; /* Bez okraje */
+    border-radius: 5px; /* Zaoblené rohy */
+    cursor: pointer; /* Ukazatel myši změní tvar na ruku */
+    font-size: 16px; /* Velikost textu */
+  }
+  
+  .my-button:hover {
+    background-color: #45a049; /* Tmavší zelená, když je tlačítko najeté */
+  }
+  
